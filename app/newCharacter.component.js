@@ -75,7 +75,7 @@ var newCharacterComponent = (function () {
             moduleId: module.id,
             selector: 'new-character',
             templateUrl: 'newCharacter.component.html',
-            styleUrls: ['newCharacter.component.css']
+            styleUrls: ['newX.component.css']
         }), 
         __metadata('design:paramtypes', [router_1.Router, character_service_1.CharacterService, race_service_1.RaceService, characterClass_service_1.CharacterClassService])
     ], newCharacterComponent);

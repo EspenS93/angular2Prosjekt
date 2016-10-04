@@ -8,8 +8,8 @@ import { Router } from '@angular/router';
 @Component({
     moduleId: module.id,
     selector: 'new-race',
-    templateUrl: 'newRace.component.html'
-    //styleUrls: ['newRace.component.css']
+    templateUrl: 'newRace.component.html',
+    styleUrls: ['newX.component.css']
 })
 export class newRaceComponent implements OnInit {
     constructor(

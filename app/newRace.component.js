@@ -35,7 +35,8 @@ var newRaceComponent = (function () {
         core_1.Component({
             moduleId: module.id,
             selector: 'new-race',
-            templateUrl: 'newRace.component.html'
+            templateUrl: 'newRace.component.html',
+            styleUrls: ['newX.component.css']
         }), 
         __metadata('design:paramtypes', [router_1.Router, race_service_1.RaceService])
     ], newRaceComponent);

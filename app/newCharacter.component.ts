@@ -14,7 +14,7 @@ import { Router } from '@angular/router';
     moduleId: module.id,
     selector: 'new-character',
     templateUrl: 'newCharacter.component.html',
-    styleUrls: ['newCharacter.component.css']
+    styleUrls: ['newX.component.css']
 })
 export class newCharacterComponent implements OnInit {
     constructor(
@@ -27,7 +27,7 @@ export class newCharacterComponent implements OnInit {
     ngOnInit(): void {
         this.getRaces();
         this.getClasses();
-        
+
         this.newCharacter.race = 'Human';
         this.newCharacter.characterClass = 'Warrior';
         this.refresh();

@@ -35,7 +35,8 @@ var newCharacterClassComponent = (function () {
         core_1.Component({
             moduleId: module.id,
             selector: 'new-character-class',
-            templateUrl: 'newCharacterClass.component.html'
+            templateUrl: 'newCharacterClass.component.html',
+            styleUrls: ['newX.component.css']
         }), 
         __metadata('design:paramtypes', [router_1.Router, characterClass_service_1.CharacterClassService])
     ], newCharacterClassComponent);

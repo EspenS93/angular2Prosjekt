@@ -8,8 +8,8 @@ import { Router } from '@angular/router';
 @Component({
     moduleId: module.id,
     selector: 'new-character-class',
-    templateUrl: 'newCharacterClass.component.html'
-    //styleUrls: ['newCharacterClass.component.css']
+    templateUrl: 'newCharacterClass.component.html',
+    styleUrls: ['newX.component.css']
 })
 export class newCharacterClassComponent implements OnInit {
     constructor(
