@@ -1,3 +1,3 @@
 "# angular2Prosjekt" 
 
-For å kjøre denne trenger man kun å laste ned prosjektet og kjøre npm install også npm start.
+To run this project you have to run "npm install" and then "npm start" in the project folder.
